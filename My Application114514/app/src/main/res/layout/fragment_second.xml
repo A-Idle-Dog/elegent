@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SecondFragment">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/iv_item_photo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="center"
+        android:src="@drawable/fw"
+        app:shapeAppearance="@style/roundedComerimageStyle" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="欢迎来到FW小说"
+        android:gravity="center"
+        android:textSize="50dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:text="没啥功能，给您来个笑话(大概是英语的)吧"
+        android:gravity="center"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/tv_item_sentence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这里会是个笑话吗?"
+        android:layout_marginTop="270dp"
+        android:textSize="30dp"/>
+    <!-- TODO: Update blank fragment layout -->
+
+
+</FrameLayout>
