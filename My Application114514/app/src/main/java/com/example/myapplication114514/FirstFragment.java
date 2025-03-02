@@ -77,6 +77,8 @@ public class FirstFragment extends Fragment {
         List<Novel> data=new ArrayList<>();
         data.add(new Novel(R.drawable.cover,"太虚剑意","昆仑玄境山外山，乾坤阴阳有洞天。只问真君何处有，不向江湖寻剑仙。华山纯阳宫门下，太虚剑宗弟子瑶光意外离开大唐流落异世。改天换地如何？白云苍狗如何？太虚剑意，一剑凌云。向使长剑在手，九州山河，黄泉碧落，谁人阻我？","novel_1.txt"));
         data.add(new Novel(R.drawable.cover,"媚眼天成","一场车祸，一只手镯，成就了她一身异能，媚眼天成！一件往事，一段噩梦，让她相信只有自己变强才不会任人凌辱！她出身农家，却身怀绝技，断生死，识顽石。从一个任人欺负的普通学生，摇身一变成为所有人眼中的宠儿，苏翊表示压力很大……..","novel_2.txt"));
+        data.add(new Novel(R.drawable.cover,"沧元图","番茄的第十本小说。我叫孟川，今年十五岁，是东宁府“镜湖道院”的当代大师兄","novel_3.txt"));
+        data.add(new Novel(R.drawable.cover,"盗墓笔记：雨村笔记","生活特立独行，无穷无尽，它更是最深远、最动人心魄的冒险。我唯有希望我的朋友们，在各自的生活中，都有如此好运。雨村常在，欢迎常来。——吴邪","novel_4.txt"));
         return data;
     }
 }
