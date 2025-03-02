@@ -25,7 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="370dp"
-        android:text="没啥功能，给您来个笑话(大概是英语的)吧"
+        android:text="没啥功能，给您来个笑话(大概是英语的)"
         android:gravity="center"
         android:textSize="20dp"/>
     <TextView
